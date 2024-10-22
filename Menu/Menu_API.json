@@ -1,0 +1,57 @@
+{
+  "externalMenuId": "example_menu",
+  "name": " Example Menu",
+  "internalName": "XMAS_MENU_2023",
+  "headerImageURL": "https://cdn.dominosmedia.co.uk/i/dominos/23C6_UK_NPD_TheFestiveOne_Web_1200x300?fmt=auto&$banner-desktop$&w=1200",
+  "description": "Availability may differ at different locations.",
+  "masterLocationId": "605a2848eda72e5c059742ad",
+  "categories": [
+    {
+      "name": "Pizza",
+      "externalCategoryId": "PZ",
+      "products": [
+        "PIZZ-00",
+        "PIZZ-01"
+      ]
+    },
+    {
+      "name": "Sides",
+      "externalCategoryId": "SD",
+      "products": [
+        "RICE-01",
+        "RICE-02",
+        "NOOD-01",
+        "NOOD-02"
+      ]
+    },
+    {
+      "name": "Steak and Burgers",
+      "externalCategoryId": "STK",
+      "products": [
+        "P-BRGR",
+        "P-BURG-CHK",
+        "STK-01",
+        "P-BURG-CHE",
+        "P-BURG-VEG"
+      ]
+    },
+    {
+      "name": "Drinks",
+      "externalCategoryId": "DRK",
+      "products": [
+        "DRNK-01",
+        "DRNK-02",
+        "DRNK-03"
+      ]
+    },
+    {
+      "name": "Chicken",
+      "externalCategoryId": "CHK",
+      "products": [
+        "P-SATE",
+        "VAR-PROD-1"
+        
+      ]
+    }
+  ]
+}
