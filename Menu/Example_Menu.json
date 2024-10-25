@@ -1,1624 +1,1722 @@
 {
-          "accountId": "623af4e91f617214084cfcf5",
-          "locationId": "63e9e673fb7eb0a781d60080",
-          "products": [
-              {
-                  "name": "Add a side",
-                  "description": "",
-                  "nameTranslations": {
-                      "en": "Choose a side",
-                      "es": "Elige tu acompañamiento",
-                      "fr": "Choisissez votre garniture",
-                      "nl": "Kies je bijgerecht"
-                  },
-                  "descriptionTranslations": {},
-                  "productType": 3,
-                  "plu": "MOD-02",
-                  "posProductId": "POS-ID-003",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "SI-01",
-                      "SI-02",
-                      "SI-03"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 1,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Rare",
-                  "description": "",
-                  "nameTranslations": {
-                      "en": "Rare",
-                      "es": "Poco hecho",
-                      "fr": "Saignant",
-                      "nl": "Rood"
-                  },
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "COOK-01",
-                  "posProductId": "POS-ID-004",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Medium Rare",
-                  "description": "",
-                  "nameTranslations": {
-                      "en": "Medium Rare",
-                      "es": "Al punto",
-                      "fr": "À point",
-                      "nl": "Half doorbakken"
-                  },
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "COOK-02",
-                  "posProductId": "POS-ID-005",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Fries",
-                  "description": "",
-                  "nameTranslations": {
-                      "en": "Fries",
-                      "es": "Patatas fritas",
-                      "fr": "Frites",
-                      "nl": "Frietjes"
-                  },
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "SI-01",
-                  "posProductId": "POS-ID-006",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "defaultQuantity": 1,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Salad",
-                  "description": "",
-                  "nameTranslations": {
-                      "en": "Salad",
-                      "es": "Ensalada",
-                      "fr": "Salade",
-                      "nl": "Salade"
-                  },
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "SI-02",
-                  "posProductId": "POS-ID-007",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 200,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Mashed Potato",
-                  "description": "",
-                  "nameTranslations": {
-                      "en": "Mashed Potato",
-                      "es": "Puré de patata",
-                      "fr": "Purée de pommes de terre",
-                      "nl": "Aardappelpuree"
-                  },
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "SI-03",
-                  "posProductId": "POS-ID-008",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 100,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Chicken Sate",
-                  "description": "Product with Nested Modifiers - Multimax variables - Allergens (tags)",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "P-SATE",
-                  "posProductId": "POS-ID-009",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "MG-RICE",
-                      "MG-NOODLES"
-                  ],
-                  "productTags": [
-                      104,
-                      108
-                  ],
-                  "posCategoryIds": [
-                      "CHK"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/satay-62284e3c8c506f015be60184.jpeg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 450,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "White Rice",
-                  "description": "White coloured rice",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "RICE-01",
-                  "posProductId": "POS-ID-012",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "MG-SAUCES"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "SD"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/nasiputi-1610290140494.jpg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 450,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Egg Noodles",
-                  "description": "Egg noodles and veggies fried and tossed with a delicious sauce",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "NOOD-01",
-                  "posProductId": "POS-ID-014",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "MG-SAUCES"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "SD"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/bamigoreng-1610289922969.jpg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 450,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Ramen Noodles",
-                  "description": "Chinese-style wheat noodles",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "NOOD-02",
-                  "posProductId": "POS-ID-015",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "MG-SAUCES"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "SD"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/Mihoen-2-1-1610289870157.jpg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 450,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Sate Sauce",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "SAUCE-01",
-                  "posProductId": "POS-ID-017",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 50,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Hot Sauce",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "SAUCE-02",
-                  "posProductId": "POS-ID-018",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 50,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Burger Combo (Drink not Included)",
-                  "description": "Combo with Bundles - Modifier Groups as Upsell",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "P-BRGR",
-                  "posProductId": "POS-ID-019",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "BNDL-BRG",
-                      "MG-FRS",
-                      "UPSLL-01"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "STK"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/burger-62286be78c506f015be60190.jpeg",
-                  "isCombo": true,
-                  "max": 0,
-                  "min": 0,
-                  "price": 950,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Fries Selection",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 3,
-                  "plu": "MG-FRS",
-                  "posProductId": "POS-ID-021",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "P-FRS-S",
-                      "P-FRS-M",
-                      "P-FRS-L"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 1,
-                  "min": 1,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Add a Drink? (not included)",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 3,
-                  "plu": "UPSLL-01",
-                  "posProductId": "POS-ID-022",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "DRNK-01",
-                      "DRNK-02",
-                      "DRNK-03"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "multiMax": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "French Fries",
-                  "description": "Plain fries from France",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "P-FRS-S",
-                  "posProductId": "POS-ID-023",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "FRS"
-                  ],
-                  "max": 0,
-                  "min": 0,
-                  "price": 200,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Chicken Burger",
-                  "description": "Crispy coated chicken thigh, iceberg lettuce, pickles, slice of cheese & mayo, all in a toasted brioche bun.",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "P-BURG-CHK",
-                  "posProductId": "POS-ID-026",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "STK"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/chkburger-6228c1dcdb5986001ebf58df.jpeg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 800,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000,
-                  "overloads": [],
-                  "posValues": {
-                      "overloads": null
-                  }
-              },
-              {
-                  "name": "Ginger Beer",
-                  "description": "Australia's favourite ginger beer!",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "DRNK-03",
-                  "gtin":[
-                    "8712345000103"
-                  ],
-                  "posProductId": "POS-ID-031",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "DRK"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/gingerbeer-62285548db5986001ebf58d1.jpg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 400,
-                  "bottleDepositPrice": 100,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Mini Poke Bowl",
-                  "description": "A little bowl of Poke",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "SZ-01",
-                  "posProductId": "POS-ID-034",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "BNDL-01-SML"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 800,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Large Poke Bowl",
-                  "description": "A big bowl of Poke",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "SZ-02",
-                  "posProductId": "POS-ID-035",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "BNDL-LG"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 1200,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Choose Your Base",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 4,
-                  "plu": "BNDL-01",
-                  "posProductId": "POS-ID-036",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "BS-01",
-                      "BS-02"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 1,
-                  "min": 1,
-                  "priceLevels": {},
-                  "deliveryTax": 6000,
-                  "takeawayTax": 6000
-              },
-              {
-                  "name": "Choose Your Protein",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 4,
-                  "plu": "BNDL-01-SML",
-                  "posProductId": "POS-ID-037",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "PRT-01",
-                      "PRT-02",
-                      "PRT-03"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 1,
-                  "min": 1,
-                  "priceLevels": {},
-                  "deliveryTax": 6000,
-                  "takeawayTax": 6000
-              },
-              {
-                  "name": "Choose Your Protein",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 4,
-                  "plu": "BNDL-LG",
-                  "posProductId": "POS-ID-038",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "PRT-01",
-                      "PRT-02",
-                      "PRT-03"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 1,
-                  "min": 1,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Spicy Tuna",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "PRT-02",
-                  "posProductId": "POS-ID-043",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Teriyaki Chicken",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "PRT-03",
-                  "posProductId": "POS-ID-044",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Spicy Tofu",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "XTRA-TOF",
-                  "posProductId": "POS-ID-045",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Smashed Avocado",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "XTRA-AVO",
-                  "posProductId": "POS-ID-047",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Add extra toppings",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 3,
-                  "plu": "PIZZ-TOP",
-                  "posProductId": "POS-ID-050",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "PEPP",
-                      "BAC",
-                      "RONION",
-                      "MUSH",
-                      "REDPEPP"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "multiMax": 10,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Red Pepper",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "REDPEPP",
-                  "posProductId": "POS-ID-055",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000,
-                  "overloads": [
-                      {
-                          "scopes": [
-                              "FREE-TOP"
-                          ],
-                          "price": 0
-                      },
-                      {
-                          "scopes": [
-                              "PIZZ-TOP"
-                          ],
-                          "price": 100
-                      }
-                  ]
-              },
-              {
-                  "name": "Chicken Tenders",
-                  "description": "Variant prices for different sizes will show cheapaest on top level product",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "VAR-PROD-1",
-                  "posProductId": "POS-ID-057",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "MG-VAR-1"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "CHK"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/chicken-62285f90db5986001ebf58d5.jpg",
-                  "isVariant": true,
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "3 Pieces",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "VAR-1",
-                  "posProductId": "POS-ID-059",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 800,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000,
-                  "imageUrl": "",
-                  "posValues": {
-                      "eatInTax": 9000,
-                      "imageUrl": null
-                  }
-              },
-              {
-                  "name": "Delicious Steak Frites",
-                  "description": "Basic Example Product with - Modifier groups - min/max variables - default selection - translations",
-                  "nameTranslations": {
-                      "en": "Delicious Steak Frites",
-                      "es": "Deliciosos Bistecs Fritos",
-                      "fr": "Steak Frites Délicieux",
-                      "nl": "Heerlijke Biefstuk Frites"
-                  },
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "STK-01",
-                  "posProductId": "POS-ID-001",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "MOD-01",
-                      "MOD-02"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "STK"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/steak-622862588c506f015be6018e.jpeg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 1500,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Cooking instructions",
-                  "description": "",
-                  "nameTranslations": {
-                      "en": "Cooking Instructions",
-                      "es": "Cocinado",
-                      "fr": "Cuisson",
-                      "nl": "Kook instructies"
-                  },
-                  "descriptionTranslations": {},
-                  "productType": 3,
-                  "plu": "MOD-01",
-                  "posProductId": "POS-ID-002",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "COOK-01",
-                      "COOK-02",
-                      "COOK-03"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 1,
-                  "min": 1,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Well Done",
-                  "description": "",
-                  "nameTranslations": {
-                      "en": "Well done",
-                      "es": "Muy hecho",
-                      "fr": "Bien cuit",
-                      "nl": "Doorbakken"
-                  },
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "COOK-03",
-                  "posProductId": "POS-ID-006",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Rice Selection",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 3,
-                  "plu": "MG-RICE",
-                  "posProductId": "POS-ID-010",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "RICE-01",
-                      "RICE-02"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "multiMax": 99,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Noodles Selection",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 3,
-                  "plu": "MG-NOODLES",
-                  "posProductId": "POS-ID-011",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "NOOD-01",
-                      "NOOD-02"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "multiMax": 99,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Yellow Rice",
-                  "description": "White rice with Saffron",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "RICE-02",
-                  "posProductId": "POS-ID-013",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "MG-SAUCES"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "SD"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/Nasi-kuning-3-1610289726946.jpg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 450,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Choose a sauce",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 3,
-                  "plu": "MG-SAUCES",
-                  "posProductId": "POS-ID-016",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "SAUCE-01",
-                      "SAUCE-02"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "multiMax": 99,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Burger Selection",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 4,
-                  "plu": "BNDL-BRG",
-                  "posProductId": "POS-ID-020",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "P-BURG-CHK",
-                      "P-BURG-CHE",
-                      "P-BURG-VEG"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 1,
-                  "min": 1,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Curly Fries",
-                  "description": "Spiralised potatoes, fried",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "P-FRS-M",
-                  "posProductId": "POS-ID-024",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "FRS"
-                  ],
-                  "max": 0,
-                  "min": 0,
-                  "price": 200,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Seasoned Fries",
-                  "description": "Plain fries, but a bit fancier",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "P-FRS-L",
-                  "posProductId": "POS-ID-025",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "FRS"
-                  ],
-                  "max": 0,
-                  "min": 0,
-                  "price": 250,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Cheeseburger",
-                  "description": "100% beef patty, cheddar, caramelized onions, mayonnaise, pickles in a Pretzel bun",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "P-BURG-CHE",
-                  "posProductId": "POS-ID-027",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "STK"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/cheeseburger-62286e26db5986001ebf58d7.jpg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 850,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Veggie Burger",
-                  "description": "Black bean burgers with sweet potato, mushrooms, quinoa, and pecans.",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "P-BURG-VEG",
-                  "posProductId": "POS-ID-028",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "STK"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/veggieburger-62286cbac715b403b0eb7294.jpeg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 750,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Coca Cola",
-                  "description": "Cola flavoured sugar and caffeine",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "DRNK-01",
-                  "gtin":[
-                    "00049000012590"
-                  ],
-                  "posProductId": "POS-ID-029",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "DRK"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/cocacola-622854a78c506f015be6018a.jpeg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 400,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Diet Coke",
-                  "description": "Cola flavoured aspartame and caffeine",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "DRNK-02",
-                  "gtin":[
-                    "00049000035575"
-                  ],
-                  "posProductId": "POS-ID-030",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "DRK"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/dietcoke-622854ce8c506f015be6018c.jpeg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 400,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Build a Poke Bowl",
-                  "description": "Select a size then choose your ingredients",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "P-PB-01",
-                  "posProductId": "POS-ID-032",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "POKE-SZ",
-                      "BNDL-01",
-                      "BNDL-02"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "POKB"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/poke-622850c8b303fc03a148de44.jpg",
-                  "isCombo": true,
-                  "max": 0,
-                  "min": 0,
-                  "price": 1000,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Choose your size",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 3,
-                  "plu": "POKE-SZ",
-                  "posProductId": "POS-ID-033",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "SZ-01",
-                      "SZ-02"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 1,
-                  "min": 1,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Add Extras",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 4,
-                  "plu": "BNDL-02",
-                  "posProductId": "POS-ID-039",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "XTRA-TOF",
-                      "XTRA-CONI",
-                      "XTRA-AVO"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 3,
-                  "min": 0,
-                  "multiMax": 3,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Sushi Rice",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "BS-01",
-                  "posProductId": "POS-ID-040",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Cruncy Cabbage Slaw",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "BS-02",
-                  "posProductId": "POS-ID-041",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Yuzu Salmon",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "PRT-01",
-                  "posProductId": "POS-ID-042",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000,
-                  "overloads": [
-                      {
-                          "scopes": [
-                              "BNDL-01-SML"
-                          ],
-                          "bundlePrice": 180
-                      },
-                      {
-                          "scopes": [
-                              "BNDL-LG"
-                          ],
-                          "bundlePrice": 250
-                      }
-                  ]
-              },
-              {
-                  "name": "Crispy Onions",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "XTRA-CONI",
-                  "posProductId": "POS-ID-046",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Build your own Pizza",
-                  "description": "Build your own pizza, first topping is free!",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "PIZZ-00",
-                  "posProductId": "POS-ID-048",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "FREE-TOP",
-                      "PIZZ-TOP"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "PZ"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/pizza-6228525eb303fc03a148de46.jpeg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 800,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Choose your First Topping",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 3,
-                  "plu": "FREE-TOP",
-                  "posProductId": "POS-ID-049",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "PEPP",
-                      "BAC",
-                      "RONION",
-                      "MUSH",
-                      "REDPEPP"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 1,
-                  "min": 1,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "Pepperoni",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "PEPP",
-                  "posProductId": "POS-ID-051",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000,
-                  "overloads": [
-                      {
-                          "scopes": [
-                              "FREE-TOP"
-                          ],
-                          "price": 0
-                      },
-                      {
-                          "scopes": [
-                              "PIZZ-TOP"
-                          ],
-                          "price": 100
-                      }
-                  ]
-              },
-              {
-                  "name": "Red Onion",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "RONION",
-                  "posProductId": "POS-ID-052",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000,
-                  "overloads": [
-                      {
-                          "scopes": [
-                              "FREE-TOP"
-                          ],
-                          "price": 0
-                      },
-                      {
-                          "scopes": [
-                              "PIZZ-TOP"
-                          ],
-                          "price": 100
-                      }
-                  ]
-              },
-              {
-                  "name": "Mushroom",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "MUSH",
-                  "posProductId": "POS-ID-053",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000,
-                  "overloads": [
-                      {
-                          "scopes": [
-                              "FREE-TOP"
-                          ],
-                          "price": 0
-                      },
-                      {
-                          "scopes": [
-                              "PIZZ-TOP"
-                          ],
-                          "price": 100
-                      }
-                  ]
-              },
-              {
-                  "name": "Bacon",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "BAC",
-                  "posProductId": "POS-ID-054",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000,
-                  "overloads": [
-                      {
-                          "scopes": [
-                              "FREE-TOP"
-                          ],
-                          "price": 0
-                      },
-                      {
-                          "scopes": [
-                              "PIZZ-TOP"
-                          ],
-                          "price": 100
-                      }
-                  ]
-              },
-              {
-                  "name": "Pineapple",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 2,
-                  "plu": "Pine",
-                  "posProductId": "POS-ID-056",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000,
-                  "overloads": [
-                      {
-                          "scopes": [
-                              "FREE-TOP"
-                          ],
-                          "price": 0
-                      },
-                      {
-                          "scopes": [
-                              "PIZZ-TOP"
-                          ],
-                          "price": 100
-                      }
-                  ]
-              },
-              {
-                  "name": "How many pieces?",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 3,
-                  "plu": "MG-VAR-1",
-                  "posProductId": "POS-ID-058",
-                  "posProductCategoryId": "",
-                  "subProducts": [
-                      "VAR-1",
-                      "VAR-2",
-                      "VAR-3"
-                  ],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "isVariantGroup": true,
-                  "max": 1,
-                  "min": 1,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "6 Pieces",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "VAR-2",
-                  "posProductId": "POS-ID-060",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 1100,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "9 Pieces",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "VAR-3",
-                  "posProductId": "POS-ID-061",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 1350,
-                  "priceLevels": {},
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "The Hawaiian",
-                  "description": "Italy's favourite Pizza!",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "PIZZ-01",
-                  "posProductId": "POS-ID-062",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [
-                      "PZ"
-                  ],
-                  "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/hawaiian-622855c7b303fc03a148de48.jpeg",
-                  "max": 0,
-                  "min": 0,
-                  "price": 800,
-                  "priceLevels": {
-                      "UE": 900,
-                      "DL": 850,
-                      "TA": 825
-                  },
-                  "deliveryTax": 9000,
-                  "takeawayTax": 9000,
-                  "eatInTax": 9000
-              },
-              {
-                  "name": "bottle deposit",
-                  "description": "",
-                  "nameTranslations": {},
-                  "descriptionTranslations": {},
-                  "productType": 1,
-                  "plu": "PR06",
-                  "posProductId": "POS-ID-063",
-                  "posProductCategoryId": "",
-                  "subProducts": [],
-                  "productTags": [],
-                  "posCategoryIds": [],
-                  "max": 0,
-                  "min": 0,
-                  "price": 0,
-                  "priceLevels": {},
-                  "deliveryTax": 0,
-                  "takeawayTax": 0
-              }
-          ],
-          "categories": [
-              {
-                  "name": "Steak & Burgers",
-                  "posCategoryId": "STK"
-              },
-              {
-                  "name": "Sides",
-                  "posCategoryId": "SD"
-              },
-              {
-                  "name": "Drinks",
-                  "posCategoryId": "DRK"
-              },
-              {
-                  "name": "Poke Bowls",
-                  "posCategoryId": "POKB"
-              },
-              {
-                  "name": "Pizzas",
-                  "posCategoryId": "PZ"
-              },
-              {
-                  "name": "Chicken",
-                  "posCategoryId": "CHK"
-              }
-          ]
-      }
+    "accountId": "623af4e91f617214084cfcf5",
+    "locationId": "63e9e673fb7eb0a781d60080",
+    "products": [
+        {
+            "name": "Add a side",
+            "description": "",
+            "nameTranslations": {
+                "en": "Choose a side",
+                "es": "Elige tu acompañamiento",
+                "fr": "Choisissez votre garniture",
+                "nl": "Kies je bijgerecht"
+            },
+            "descriptionTranslations": {},
+            "productType": 3,
+            "plu": "MOD-02",
+            "posProductId": "POS-ID-003",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "SI-01",
+                "SI-02",
+                "SI-03"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 1,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "productType": 1,
+            "isCombo": true,
+            "plu": "P-BRGR-1",
+            "price": 950,
+            "name": "Deluxe Burger (Pick and Choose)",
+            "posProductId": "POS-ID-0001",
+            "posCategoryIds": [
+                "BURG"
+            ],
+            "subProducts": [
+                "BNDL-BRG",
+                "MG-FRS",
+                "UPSLL-01"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/burger-62286be78c506f015be60190.jpeg",
+            "description": "",
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Rare",
+            "description": "",
+            "nameTranslations": {
+                "en": "Rare",
+                "es": "Poco hecho",
+                "fr": "Saignant",
+                "nl": "Rood"
+            },
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "COOK-01",
+            "posProductId": "POS-ID-004",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Medium Rare",
+            "description": "",
+            "nameTranslations": {
+                "en": "Medium Rare",
+                "es": "Al punto",
+                "fr": "À point",
+                "nl": "Half doorbakken"
+            },
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "COOK-02",
+            "posProductId": "POS-ID-005",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Fries",
+            "description": "",
+            "nameTranslations": {
+                "en": "Fries",
+                "es": "Patatas fritas",
+                "fr": "Frites",
+                "nl": "Frietjes"
+            },
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "SI-01",
+            "posProductId": "POS-ID-006",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "defaultQuantity": 1,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Salad",
+            "description": "",
+            "nameTranslations": {
+                "en": "Salad",
+                "es": "Ensalada",
+                "fr": "Salade",
+                "nl": "Salade"
+            },
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "SI-02",
+            "posProductId": "POS-ID-007",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 200,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Mashed Potato",
+            "description": "",
+            "nameTranslations": {
+                "en": "Mashed Potato",
+                "es": "Puré de patata",
+                "fr": "Purée de pommes de terre",
+                "nl": "Aardappelpuree"
+            },
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "SI-03",
+            "posProductId": "POS-ID-008",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 100,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Chicken Sate",
+            "description": "Product with Nested Modifiers - Multimax variables - Allergens (tags)",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "P-SATE",
+            "posProductId": "POS-ID-009",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "MG-RICE",
+                "MG-NOODLES"
+            ],
+            "productTags": [
+                104,
+                108
+            ],
+            "posCategoryIds": [
+                "CHK"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/satay-62284e3c8c506f015be60184.jpeg",
+            "max": 0,
+            "min": 0,
+            "price": 450,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "White Rice",
+            "description": "White coloured rice",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "RICE-01",
+            "posProductId": "POS-ID-012",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "MG-SAUCES"
+            ],
+            "productTags": [],
+            "posCategoryIds": [
+                "SD"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/nasiputi-1610290140494.jpg",
+            "max": 0,
+            "min": 0,
+            "price": 450,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Egg Noodles",
+            "description": "Egg noodles and veggies fried and tossed with a delicious sauce",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "NOOD-01",
+            "posProductId": "POS-ID-014",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "MG-SAUCES"
+            ],
+            "productTags": [],
+            "posCategoryIds": [
+                "SD"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/bamigoreng-1610289922969.jpg",
+            "max": 0,
+            "min": 0,
+            "price": 450,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Ramen Noodles",
+            "description": "Chinese-style wheat noodles",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "NOOD-02",
+            "posProductId": "POS-ID-015",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "MG-SAUCES"
+            ],
+            "productTags": [],
+            "posCategoryIds": [
+                "SD"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/Mihoen-2-1-1610289870157.jpg",
+            "max": 0,
+            "min": 0,
+            "price": 450,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Sate Sauce",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "SAUCE-01",
+            "posProductId": "POS-ID-017",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 50,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Hot Sauce",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "SAUCE-02",
+            "posProductId": "POS-ID-018",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 50,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Burger Combo (Drink not Included)",
+            "description": "Combo with Bundles - Modifier Groups as Upsell",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "P-BRGR",
+            "posProductId": "POS-ID-019",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "BNDL-BRG",
+                "MG-FRS",
+                "UPSLL-01"
+            ],
+            "productTags": [],
+            "posCategoryIds": [
+                "STK"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/burger-62286be78c506f015be60190.jpeg",
+            "isCombo": true,
+            "max": 0,
+            "min": 0,
+            "price": 950,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Fries Selection",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 3,
+            "plu": "MG-FRS",
+            "posProductId": "POS-ID-021",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "P-FRS-S",
+                "P-FRS-M",
+                "P-FRS-L"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 1,
+            "min": 1,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Add a Drink? (not included)",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 3,
+            "plu": "UPSLL-01",
+            "posProductId": "POS-ID-022",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "DRNK-01",
+                "DRNK-02",
+                "DRNK-03"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "multiMax": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "French Fries",
+            "description": "Plain fries from France",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "P-FRS-S",
+            "posProductId": "POS-ID-023",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [
+                "FRS"
+            ],
+            "max": 0,
+            "min": 0,
+            "price": 200,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Chicken Burger",
+            "description": "Crispy coated chicken thigh, iceberg lettuce, pickles, slice of cheese & mayo, all in a toasted brioche bun.",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "P-BURG-CHK",
+            "posProductId": "POS-ID-026",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [
+                "STK"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/chkburger-6228c1dcdb5986001ebf58df.jpeg",
+            "max": 0,
+            "min": 0,
+            "price": 800,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "overloads": [],
+            "posValues": {
+                "overloads": null
+            }
+        },
+        {
+            "name": "Ginger Beer",
+            "description": "Australia's favourite ginger beer!",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "DRNK-03",
+            "gtin": [
+                "8712345000103"
+            ],
+            "posProductId": "POS-ID-031",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [
+                "DRK"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/gingerbeer-62285548db5986001ebf58d1.jpg",
+            "max": 0,
+            "min": 0,
+            "price": 400,
+            "bottleDepositPrice": 100,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Mini Poke Bowl",
+            "description": "A little bowl of Poke",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "SZ-01",
+            "posProductId": "POS-ID-034",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "BNDL-01-SML"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 800,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Large Poke Bowl",
+            "description": "A big bowl of Poke",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "SZ-02",
+            "posProductId": "POS-ID-035",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "BNDL-LG"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 1200,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Choose Your Base",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 4,
+            "plu": "BNDL-01",
+            "posProductId": "POS-ID-036",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "BS-01",
+                "BS-02"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 1,
+            "min": 1,
+            "priceLevels": {},
+            "deliveryTax": 6000,
+            "takeawayTax": 6000
+        },
+        {
+            "name": "Choose Your Protein",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 4,
+            "plu": "BNDL-01-SML",
+            "posProductId": "POS-ID-037",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "PRT-01",
+                "PRT-02",
+                "PRT-03"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 1,
+            "min": 1,
+            "priceLevels": {},
+            "deliveryTax": 6000,
+            "takeawayTax": 6000
+        },
+        {
+            "name": "Choose Your Protein",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 4,
+            "plu": "BNDL-LG",
+            "posProductId": "POS-ID-038",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "PRT-01",
+                "PRT-02",
+                "PRT-03"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 1,
+            "min": 1,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Spicy Tuna",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "PRT-02",
+            "posProductId": "POS-ID-043",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Teriyaki Chicken",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "PRT-03",
+            "posProductId": "POS-ID-044",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Spicy Tofu",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "XTRA-TOF",
+            "posProductId": "POS-ID-045",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Smashed Avocado",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "XTRA-AVO",
+            "posProductId": "POS-ID-047",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Add extra toppings",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 3,
+            "plu": "PIZZ-TOP",
+            "posProductId": "POS-ID-050",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "PEPP",
+                "BAC",
+                "RONION",
+                "MUSH",
+                "REDPEPP"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "multiMax": 10,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Red Pepper",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "REDPEPP",
+            "posProductId": "POS-ID-055",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "overloads": [
+                {
+                    "scopes": [
+                        "FREE-TOP"
+                    ],
+                    "price": 0
+                },
+                {
+                    "scopes": [
+                        "PIZZ-TOP"
+                    ],
+                    "price": 100
+                }
+            ]
+        },
+        {
+            "name": "Chicken Tenders",
+            "description": "Variant prices for different sizes will show cheapaest on top level product",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "VAR-PROD-1",
+            "posProductId": "POS-ID-057",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "MG-VAR-1"
+            ],
+            "productTags": [],
+            "posCategoryIds": [
+                "CHK"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/chicken-62285f90db5986001ebf58d5.jpg",
+            "isVariant": true,
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "3 Pieces",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "VAR-1",
+            "posProductId": "POS-ID-059",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 800,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "imageUrl": "",
+            "posValues": {
+                "eatInTax": 9000,
+                "imageUrl": null
+            }
+        },
+        {
+            "name": "Delicious Steak Frites",
+            "description": "Basic Example Product with - Modifier groups - min/max variables - default selection - translations",
+            "nameTranslations": {
+                "en": "Delicious Steak Frites",
+                "es": "Deliciosos Bistecs Fritos",
+                "fr": "Steak Frites Délicieux",
+                "nl": "Heerlijke Biefstuk Frites"
+            },
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "STK-01",
+            "posProductId": "POS-ID-001",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "MOD-01",
+                "MOD-02"
+            ],
+            "productTags": [],
+            "posCategoryIds": [
+                "STK"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/steak-622862588c506f015be6018e.jpeg",
+            "max": 0,
+            "min": 0,
+            "price": 1500,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Cooking instructions",
+            "description": "",
+            "nameTranslations": {
+                "en": "Cooking Instructions",
+                "es": "Cocinado",
+                "fr": "Cuisson",
+                "nl": "Kook instructies"
+            },
+            "descriptionTranslations": {},
+            "productType": 3,
+            "plu": "MOD-01",
+            "posProductId": "POS-ID-002",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "COOK-01",
+                "COOK-02",
+                "COOK-03"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 1,
+            "min": 1,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Well Done",
+            "description": "",
+            "nameTranslations": {
+                "en": "Well done",
+                "es": "Muy hecho",
+                "fr": "Bien cuit",
+                "nl": "Doorbakken"
+            },
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "COOK-03",
+            "posProductId": "POS-ID-006",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Rice Selection",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 3,
+            "plu": "MG-RICE",
+            "posProductId": "POS-ID-010",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "RICE-01",
+                "RICE-02"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "multiMax": 99,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Noodles Selection",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 3,
+            "plu": "MG-NOODLES",
+            "posProductId": "POS-ID-011",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "NOOD-01",
+                "NOOD-02"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "multiMax": 99,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Yellow Rice",
+            "description": "White rice with Saffron",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "RICE-02",
+            "posProductId": "POS-ID-013",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "MG-SAUCES"
+            ],
+            "productTags": [],
+            "posCategoryIds": [
+                "SD"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/Nasi-kuning-3-1610289726946.jpg",
+            "max": 0,
+            "min": 0,
+            "price": 450,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Choose a sauce",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 3,
+            "plu": "MG-SAUCES",
+            "posProductId": "POS-ID-016",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "SAUCE-01",
+                "SAUCE-02"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "multiMax": 99,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Burger Selection",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 4,
+            "plu": "BNDL-BRG",
+            "posProductId": "POS-ID-020",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "P-BURG-CHK",
+                "P-BURG-CHE",
+                "P-BURG-VEG"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 1,
+            "min": 1,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Curly Fries",
+            "description": "Spiralised potatoes, fried",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "P-FRS-M",
+            "posProductId": "POS-ID-024",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [
+                "FRS"
+            ],
+            "max": 0,
+            "min": 0,
+            "price": 200,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Seasoned Fries",
+            "description": "Plain fries, but a bit fancier",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "P-FRS-L",
+            "posProductId": "POS-ID-025",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [
+                "FRS"
+            ],
+            "max": 0,
+            "min": 0,
+            "price": 250,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Cheeseburger",
+            "description": "100% beef patty, cheddar, caramelized onions, mayonnaise, pickles in a Pretzel bun",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "P-BURG-CHE",
+            "posProductId": "POS-ID-027",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [
+                "STK"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/cheeseburger-62286e26db5986001ebf58d7.jpg",
+            "max": 0,
+            "min": 0,
+            "price": 850,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Veggie Burger",
+            "description": "Black bean burgers with sweet potato, mushrooms, quinoa, and pecans.",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "P-BURG-VEG",
+            "posProductId": "POS-ID-028",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [
+                "STK"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/veggieburger-62286cbac715b403b0eb7294.jpeg",
+            "max": 0,
+            "min": 0,
+            "price": 750,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Coca Cola",
+            "description": "Cola flavoured sugar and caffeine",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "DRNK-01",
+            "gtin": [
+                "00049000012590"
+            ],
+            "posProductId": "POS-ID-029",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [
+                "DRK"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/cocacola-622854a78c506f015be6018a.jpeg",
+            "max": 0,
+            "min": 0,
+            "price": 400,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Diet Coke",
+            "description": "Cola flavoured aspartame and caffeine",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "DRNK-02",
+            "gtin": [
+                "00049000035575"
+            ],
+            "posProductId": "POS-ID-030",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [
+                "DRK"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/dietcoke-622854ce8c506f015be6018c.jpeg",
+            "max": 0,
+            "min": 0,
+            "price": 400,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Build a Poke Bowl",
+            "description": "Select a size then choose your ingredients",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "P-PB-01",
+            "posProductId": "POS-ID-032",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "POKE-SZ",
+                "BNDL-01",
+                "BNDL-02"
+            ],
+            "productTags": [],
+            "posCategoryIds": [
+                "POKB"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/poke-622850c8b303fc03a148de44.jpg",
+            "isCombo": true,
+            "max": 0,
+            "min": 0,
+            "price": 1000,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Choose your size",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 3,
+            "plu": "POKE-SZ",
+            "posProductId": "POS-ID-033",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "SZ-01",
+                "SZ-02"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 1,
+            "min": 1,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Add Extras",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 4,
+            "plu": "BNDL-02",
+            "posProductId": "POS-ID-039",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "XTRA-TOF",
+                "XTRA-CONI",
+                "XTRA-AVO"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 3,
+            "min": 0,
+            "multiMax": 3,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Sushi Rice",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "BS-01",
+            "posProductId": "POS-ID-040",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Cruncy Cabbage Slaw",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "BS-02",
+            "posProductId": "POS-ID-041",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Yuzu Salmon",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "PRT-01",
+            "posProductId": "POS-ID-042",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "overloads": [
+                {
+                    "scopes": [
+                        "BNDL-01-SML"
+                    ],
+                    "bundlePrice": 180
+                },
+                {
+                    "scopes": [
+                        "BNDL-LG"
+                    ],
+                    "bundlePrice": 250
+                }
+            ]
+        },
+        {
+            "name": "Crispy Onions",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "XTRA-CONI",
+            "posProductId": "POS-ID-046",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Build your own Pizza",
+            "description": "Build your own pizza, first topping is free!",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "PIZZ-00",
+            "posProductId": "POS-ID-048",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "FREE-TOP",
+                "PIZZ-TOP"
+            ],
+            "productTags": [],
+            "posCategoryIds": [
+                "PZ"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/pizza-6228525eb303fc03a148de46.jpeg",
+            "max": 0,
+            "min": 0,
+            "price": 800,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Choose your First Topping",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 3,
+            "plu": "FREE-TOP",
+            "posProductId": "POS-ID-049",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "PEPP",
+                "BAC",
+                "RONION",
+                "MUSH",
+                "REDPEPP"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 1,
+            "min": 1,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Pepperoni",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "PEPP",
+            "posProductId": "POS-ID-051",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "overloads": [
+                {
+                    "scopes": [
+                        "FREE-TOP"
+                    ],
+                    "price": 0
+                },
+                {
+                    "scopes": [
+                        "PIZZ-TOP"
+                    ],
+                    "price": 100
+                }
+            ]
+        },
+        {
+            "name": "Red Onion",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "RONION",
+            "posProductId": "POS-ID-052",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "overloads": [
+                {
+                    "scopes": [
+                        "FREE-TOP"
+                    ],
+                    "price": 0
+                },
+                {
+                    "scopes": [
+                        "PIZZ-TOP"
+                    ],
+                    "price": 100
+                }
+            ]
+        },
+        {
+            "name": "Mushroom",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "MUSH",
+            "posProductId": "POS-ID-053",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "overloads": [
+                {
+                    "scopes": [
+                        "FREE-TOP"
+                    ],
+                    "price": 0
+                },
+                {
+                    "scopes": [
+                        "PIZZ-TOP"
+                    ],
+                    "price": 100
+                }
+            ]
+        },
+        {
+            "name": "Bacon",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "BAC",
+            "posProductId": "POS-ID-054",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "overloads": [
+                {
+                    "scopes": [
+                        "FREE-TOP"
+                    ],
+                    "price": 0
+                },
+                {
+                    "scopes": [
+                        "PIZZ-TOP"
+                    ],
+                    "price": 100
+                }
+            ]
+        },
+        {
+            "name": "Pineapple",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 2,
+            "plu": "Pine",
+            "posProductId": "POS-ID-056",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "overloads": [
+                {
+                    "scopes": [
+                        "FREE-TOP"
+                    ],
+                    "price": 0
+                },
+                {
+                    "scopes": [
+                        "PIZZ-TOP"
+                    ],
+                    "price": 100
+                }
+            ]
+        },
+        {
+            "name": "How many pieces?",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 3,
+            "plu": "MG-VAR-1",
+            "posProductId": "POS-ID-058",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "VAR-1",
+                "VAR-2",
+                "VAR-3"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "isVariantGroup": true,
+            "max": 1,
+            "min": 1,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "6 Pieces",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "VAR-2",
+            "posProductId": "POS-ID-060",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 1100,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "9 Pieces",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "VAR-3",
+            "posProductId": "POS-ID-061",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 1350,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "The Hawaiian",
+            "description": "Italy's favourite Pizza!",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "PIZZ-01",
+            "posProductId": "POS-ID-062",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [
+                "PZ"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/hawaiian-622855c7b303fc03a148de48.jpeg",
+            "max": 0,
+            "min": 0,
+            "price": 800,
+            "priceLevels": {
+                "UE": 900,
+                "DL": 850,
+                "TA": 825
+            },
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "bottle deposit",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 1,
+            "plu": "PR06",
+            "posProductId": "POS-ID-063",
+            "posProductCategoryId": "",
+            "subProducts": [],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 0,
+            "min": 0,
+            "price": 0,
+            "priceLevels": {},
+            "deliveryTax": 0,
+            "takeawayTax": 0
+        },
+        {
+            "productType": 3,
+            "plu": "INGRD",
+            "name": "Ingredients",
+            "sortOrder": 2,
+            "posProductId": "",
+            "subProducts": [
+                "TOMAT",
+                "ONION",
+                "SLA",
+                "PICKL"
+            ],
+            "imageUrl": "",
+            "description": "",
+            "min": 0,
+            "max": 4
+        },
+        {
+            "productType": 2,
+            "plu": "TOMAT",
+            "price": 0,
+            "name": "Tomatos",
+            "posProductId": "POS-ID-00031",
+            "posCategoryIds": [],
+            "imageUrl": "",
+            "description": "",
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "productTags": [],
+            "defaultQuantity": 1
+        },
+        {
+            "productType": 2,
+            "plu": "ONION",
+            "price": 0,
+            "name": "Onions",
+            "posProductId": "POS-ID-00031",
+            "posCategoryIds": [],
+            "imageUrl": "",
+            "description": "",
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "productTags": [],
+            "defaultQuantity": 1
+        },
+        {
+            "productType": 2,
+            "plu": "SLA",
+            "price": 0,
+            "name": "Salad",
+            "posProductId": "POS-ID-00031",
+            "posCategoryIds": [],
+            "imageUrl": "",
+            "description": "",
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "productTags": [],
+            "defaultQuantity": 1
+        },
+        {
+            "productType": 2,
+            "plu": "PICKL",
+            "price": 0,
+            "name": "Pickles",
+            "posProductId": "POS-ID-00031",
+            "posCategoryIds": [],
+            "imageUrl": "",
+            "description": "",
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "productTags": [],
+            "defaultQuantity": 1
+        }
+    ],
+    "categories": [
+        {
+            "name": "Steak & Burgers",
+            "posCategoryId": "STK"
+        },
+        {
+            "name": "Sides",
+            "posCategoryId": "SD"
+        },
+        {
+            "name": "Drinks",
+            "posCategoryId": "DRK"
+        },
+        {
+            "name": "Poke Bowls",
+            "posCategoryId": "POKB"
+        },
+        {
+            "name": "Pizzas",
+            "posCategoryId": "PZ"
+        },
+        {
+            "name": "Chicken",
+            "posCategoryId": "CHK"
+        }
+    ]
+}
